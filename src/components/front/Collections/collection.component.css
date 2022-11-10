@@ -1,0 +1,27 @@
+#collection-heading{
+    margin-top: 40px;
+}
+#collection-heading h2{
+    font-weight: bold;
+}
+.collection-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    margin: 8px;
+    height: 100%; 
+    overflow: hidden;  
+}
+.collection-card img{
+    height: 300px;
+    width: 100%;
+    transition: transform .3s ease;
+}
+.collection-card:hover img{
+    transform: scale(1.1);
+}
+.collection-body{
+    padding: 5px 10px;
+}
+.collection-body h4{
+    margin-top: 20px;
+}
+

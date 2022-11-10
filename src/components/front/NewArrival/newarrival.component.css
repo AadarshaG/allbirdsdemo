@@ -1,0 +1,39 @@
+#new-arrival{
+    margin-top: 40px;
+}
+#flex-arrival{
+    display: flex;
+    margin-top: 20px;
+}
+#new-arrival-heading h2{
+    font-weight: bold;
+}
+#arrival-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+#arrival-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#arrival-body{
+    padding: 5px 10px;
+}
+#arrival-card img{
+    height: 300px;
+    width: 100%;
+    transition: transform .3s;
+}
+#arrival-card img:hover{
+    transform: scale(1.1);
+}
+#arrival-body h4{
+    margin-top: 10px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px){
+    #arrival-card{
+        padding-top: 15px;
+    }
+}

@@ -1,0 +1,158 @@
+#bids{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8f7f5;
+    height: auto;
+}
+#bids-body h2{
+    font-weight: bold;
+    color: #212c21;
+    padding-top: 20px;
+}
+
+#form-bids input{
+    width: 500px;
+    height: 40px;
+    border-bottom: 2px solid #000;
+}
+#form-bids button{
+    height: 40px;
+    padding-left: 10px;
+    background-color: #212c21;
+    color: #fff;
+    width: 150px;
+    border-bottom: 2px solid #000;
+}
+#form-bids #button{
+    margin-left: 10px;
+}
+#form-bids input:hover{
+    width: 500px;
+    height: 40px;
+    opacity: 0.4;
+    border-bottom: 2px solid #000;
+}
+#form-bids button:hover{
+    height: 40px;
+    padding-left: 10px;
+    background-color: #fff;
+    color: #000;
+    width: 150px;
+    border: 2px solid #000;
+}
+#bids-link p{
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+#bids-link p::before{
+    content: 'Note :';
+    font-size: 14px;
+    text-decoration: bold;
+    font-weight: bold;
+}
+@media screen and( max-width:600px){
+    #bids{
+        margin-bottom: 20px;
+    }
+    #bids-body p{
+       padding: 15px;
+    }
+    #bids-body{
+        height: auto;
+        width: 100%;
+    }
+    #bids-body #form-bids input {
+        width: 350px;
+        height: 40px;
+        border-bottom: 2px solid #000;
+    }
+    #bids-body #form-bids input:hover {
+        width: 350px;
+        height: 40px;
+        opacity: 0.4;
+        border-bottom: 2px solid #000;
+    }
+    #bids-body #form-bids input:onclick {
+        width: 350px;
+        height: 40px;
+        border: 2px solid #000;
+        opacity: 0.4
+    }
+    #bids-body #form-bids button{
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #bids-body #form-bids button:hover{
+        width: 200px;
+        border: 2px solid #000;
+    }
+    #bids-body #bids-link p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }   
+
+}
+
+/* next mobile bids */
+#mobile-bids{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    #bids{
+        display: none;
+    }
+    #mobile-bids{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        background-color: #f8f7f5;
+        margin-top: 20px;
+    }
+    #mobile-bids-body h2{
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    #mobile-bids-body p{
+        justify-content: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #mobile-bids-form{
+        display: block;
+    }
+    #mobile-bids-form #email{
+        width: 400px;
+        border-bottom: 2px solid #000;
+        height: 40px;
+    }
+    #mobile-bids-form #email:hover{
+        width: 400px;
+        border-bottom: 2px solid #000;
+        height: 40px;
+        opacity: 0.5;
+    }
+    #mobile-bids-form input:onclick{
+        width: 400px;
+        border-bottom: 2px solid #000;
+        height: 40px;
+        opacity: 0.5;
+    }
+    #mobile-bids-form button{
+        margin-top: 10px;
+        width: 200px;
+        background-color: #212c21;
+        color: #fff;
+        height: 40px;
+    }
+    #mobile-bids-form button:hover{
+        background-color: #fff;
+        color: #000;
+        font-weight: bold;
+    }
+    #mobile-bids-link p{
+        padding: 10px;
+    }
+}

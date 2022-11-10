@@ -1,0 +1,8 @@
+#girl-banner{
+    margin-top: 30px;
+}
+#girl-banner img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 20/8;
+}

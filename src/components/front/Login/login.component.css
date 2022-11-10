@@ -1,0 +1,193 @@
+#login-page{
+    background-color: #f1ebe7;
+}
+.login-details{
+    margin-top: 40px;
+}
+#login-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.login-email{
+    display: grid;
+}
+.login-email label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.login-email input{
+    height: 50px;
+    width: 80%
+}
+.login-password{
+    display: grid;
+}
+.login-password label{
+    font-size: 15px;
+    font-weight: bold;
+}
+.login-password input{
+    height: 50px;
+    width: 80%;
+}
+.login-button{
+    border: 2px solid #000;
+    background-color: #000;
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;
+   text-align: center;
+}
+.login-button button h5{
+   padding: 10px;
+   color: #fff;   
+}
+.login-button:hover{
+    border: 2px solid #000;
+    background-color: #f1ebe7;
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.login-button button:hover h5{
+    color: #000;   
+ }
+ #forgot-password{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+ }
+.register-details{
+    margin-top: 40px;
+}
+#register-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+#register-description{
+    margin-top: 20px;
+}
+.register-fname {
+   display: grid;
+}
+.register-fname label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.register-fname input{
+    height: 50px;
+    width: 80%
+}
+.register-lname {
+   display: grid;
+}
+.register-lname label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.register-lname input{
+    height: 50px;
+    width: 80%
+}
+.register-email {
+   display: grid;
+}
+.register-email label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.register-email input{
+    height: 50px;
+    width: 80%
+}
+.register-email{
+    display: grid;
+}
+.register-email label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.register-email input{
+    height: 50px;
+    width: 80%
+}
+.register-password{
+    display: grid;
+}
+.register-password label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.register-password input{
+    height: 50px;
+    width: 80%;
+}
+.register-confirm-password{
+    display: grid;
+}
+.register-confirm-password label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.register-confirm-password input{
+    height: 50px;
+    width: 80%;
+}
+.register-button{
+    border: 2px solid #000;
+    background-color: #000;
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;
+   text-align: center;
+}
+.register-button button h5{
+   padding: 10px;
+   color: #fff;   
+}
+.register-button:hover{
+    border: 2px solid #000;
+    background-color: #f1ebe7;
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.register-button button:hover h5{
+    color: #000;   
+ }
+ #register-paragraph{
+    margin-top: 20px;
+ }
+ #register-paragraph p{
+    font-size: 13px;
+ }
+ #required-fields{
+    margin-top: 20px;
+ }
+ #required-fields p{
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    font-size: 10px;
+ }
+ @media only screen and (max-width: 600px){
+  
+    
+ }
